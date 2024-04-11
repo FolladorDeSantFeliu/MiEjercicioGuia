@@ -1,3 +1,5 @@
 # MiEjercicioGuia
 
 VersionConConexionDesconexion
+Version Concurrente
+VersionExcluyente

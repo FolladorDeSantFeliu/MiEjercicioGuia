@@ -32,14 +32,16 @@
             this.nombre = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.Altura = new System.Windows.Forms.Label();
+            this.alturaBox = new System.Windows.Forms.TextBox();
             this.Longitud = new System.Windows.Forms.RadioButton();
             this.Bonito = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.IP = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.alturaBox = new System.Windows.Forms.TextBox();
-            this.Altura = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -86,6 +88,22 @@
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Peticion";
+            // 
+            // Altura
+            // 
+            this.Altura.AutoSize = true;
+            this.Altura.Location = new System.Drawing.Point(45, 105);
+            this.Altura.Name = "Altura";
+            this.Altura.Size = new System.Drawing.Size(34, 13);
+            this.Altura.TabIndex = 10;
+            this.Altura.Text = "Altura";
+            // 
+            // alturaBox
+            // 
+            this.alturaBox.Location = new System.Drawing.Point(10, 121);
+            this.alturaBox.Name = "alturaBox";
+            this.alturaBox.Size = new System.Drawing.Size(100, 20);
+            this.alturaBox.TabIndex = 9;
             // 
             // Longitud
             // 
@@ -147,27 +165,30 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // alturaBox
+            // button4
             // 
-            this.alturaBox.Location = new System.Drawing.Point(10, 121);
-            this.alturaBox.Name = "alturaBox";
-            this.alturaBox.Size = new System.Drawing.Size(100, 20);
-            this.alturaBox.TabIndex = 9;
+            this.button4.Location = new System.Drawing.Point(477, 114);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(128, 23);
+            this.button4.TabIndex = 11;
+            this.button4.Text = "Cuantos servicios?";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // Altura
+            // label3
             // 
-            this.Altura.AutoSize = true;
-            this.Altura.Location = new System.Drawing.Point(45, 105);
-            this.Altura.Name = "Altura";
-            this.Altura.Size = new System.Drawing.Size(34, 13);
-            this.Altura.TabIndex = 10;
-            this.Altura.Text = "Altura";
+            this.label3.Location = new System.Drawing.Point(477, 160);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(128, 39);
+            this.label3.TabIndex = 12;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(741, 562);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.IP);
             this.Controls.Add(this.label1);
@@ -197,6 +218,8 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label Altura;
         private System.Windows.Forms.TextBox alturaBox;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label3;
     }
 }
 
