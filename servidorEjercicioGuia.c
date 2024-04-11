@@ -13,7 +13,7 @@ int contador;
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 
 int i;
-int sockets[100];
+int sockets[101];
 
 void *AtenderCliente (void *socket)
 {
